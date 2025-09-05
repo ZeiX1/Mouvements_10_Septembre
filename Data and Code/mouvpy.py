@@ -7,8 +7,8 @@ from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 import time
 # ====== Config ======
-api_id = 26195766  
-api_hash = '3baaf17fce7e4842346158a3fd93f8a1' 
+api_id = 1234 #mettre son propre id  
+api_hash = 'abcd' #mettre son propre api hash
 session_name = "telegram_session"  
 csv_path = "10s25___indignons_nous__.csv"  
 output_csv = "telegram_messages.csv"
@@ -75,4 +75,5 @@ async def main():
         print(" Error, no message detected.")
 
 if __name__ == "__main__":
+
     asyncio.run(main())
