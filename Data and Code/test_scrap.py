@@ -69,10 +69,10 @@ async def main():
     i = 0
     for index, row in df_unique.iterrows():
 
-        if i == 20:
-            print("Pause de 120 secondes pour éviter les limites...")
-            await asyncio.sleep(120)
-            i = 0  # Réinitialisation du compteur
+        #if i == 20:
+         #   print("Pause de 120 secondes pour éviter les limites...")
+         #   await asyncio.sleep(120)
+         #   i = 0  # Réinitialisation du compteur
 
 
         url = row['url']
@@ -84,7 +84,10 @@ async def main():
 
         await join_channel(client, url)
         await scrap_message(client, url, file_name, limit=message_limit)
+        await asyncio.sleep(450)
         i = i+1
 
 with client:
+
     client.loop.run_until_complete(main())
+
