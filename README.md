@@ -17,6 +17,9 @@ Carte interactive des actions le 10 septembre : https://cartedesagbfc.gogocarto.
 snscrap library, useful to scrape Tweets and facebook posts : https://github.com/JustAnotherArchivist/snscrape
 
 Ressources for Python and Deep Learning:
+
 Tutos bases de python : https://www.youtube.com/watch?v=K5KVEU3aaeQ
+
 Tuto pour installer jupyter : https://www.youtube.com/watch?v=2WL-XTl2QYI
+
 Livre  sur les maths derrière le deep learning (pas de preuves) + exercices python  :  https://udlbook.github.io/udlbook/
