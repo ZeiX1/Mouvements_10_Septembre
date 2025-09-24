@@ -23,3 +23,6 @@ Tutos bases de python : https://www.youtube.com/watch?v=K5KVEU3aaeQ
 Tuto pour installer jupyter : https://www.youtube.com/watch?v=2WL-XTl2QYI
 
 Livre  sur les maths derrière le deep learning (pas de preuves) + exercices python  :  https://udlbook.github.io/udlbook/
+
+Python tutorial for economists https://aeturrell.github.io/coding-for-economists/econmt-probability-random.html
+
